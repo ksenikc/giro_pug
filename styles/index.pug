@@ -1,0 +1,61 @@
+- var docName = "MyGiro"
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title= docName
+        style 
+            include styles/style.css
+    body      
+        include modules/header   
+        .banner 
+            .wrapper 
+                h1 My-Giro
+                p Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores dolores nesciunt aperiam earum facere laudantium illo dignissimos quia, ab quibusdam. Rerum unde sint nihil neque nulla, reprehenderit provident reiciendis eum.
+                input(type="button", value = "В КАТАЛОГ")
+        .abouts
+            h1 О нас
+            p В  нашем интернет-магазине представлен большой выбор гироскутеров, сигвеев и электросамокатов от известных мировых производителей. 
+                br
+            p В нашем интернет-магазине представлен большой выбор гироскутеров, сигвеев и электросамокатов от известных мировых производителей. Все товары, представленные на нашем сайте, отобраны лучшими специалистами в этой области. Купить гироскутер, электросамокат или сигвей недорого.
+
+        .catalog
+            h1 Каталог
+            nav.menu 
+                ol 
+                    li
+                        .orange Все
+                    li Гироскутеры
+                    li Электросамокаты
+                    li Сигвеи
+            .containrer 
+                .elem 
+                    img(src="/img/sig.png", alt="")
+                    p Xiaomi Ninebot mini ProWhite (Белый)
+                    p.one 31 480 p.
+                .elem 
+                    img(src="/img/sig.png", alt="")
+                    p Xiaomi Ninebot mini ProWhite (Белый)
+                    p.one  31 480 p.
+                .elem 
+                    img(src="/img/sig.png", alt="")
+                    p Xiaomi Ninebot mini ProWhite (Белый)
+                    p.one  31 480 p.
+                .elem 
+                    img(src="/img/sig.png", alt="")
+                    p Xiaomi Ninebot mini ProWhite (Белый)
+                    p.one  31 480 p.   
+        .information 
+            h1 Полезная информация
+            .elems 
+                img(src="/img/giro.png", alt="")
+            .elems 
+                img(src="/img/giro.png", alt="")
+            .elems 
+                img(src="/img/giro.png", alt="")
+            .elems 
+                img(src="/img/giro.png", alt="") 
+        include modules/footer
