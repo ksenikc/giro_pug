@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyGiro</title>
+    <style>
+       @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+body {
+  width: 1920px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  height: 62px;
+}
+header .logo {
+  float: left;
+  margin-top: 13px;
+}
+header .logo h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+header .main-menu {
+  float: right;
+  margin-top: 25px;
+}
+header .main-menu ul li {
+  list-style-type: none;
+  float: left;
+  margin-left: 33px;
+  text-transform: uppercase;
+}
+header .main-menu ul li a {
+  text-decoration: none;
+}
+
+.banner {
+  background-image: url("/img/banner.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 815px;
+  text-align: center;
+}
+.banner h1 {
+  color: white;
+  font-size: 56px;
+  font-weight: 300;
+  padding-top: 244px;
+}
+.banner p {
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  padding-top: 39px;
+}
+.banner input[type=button] {
+  width: 133px;
+  height: 35px;
+  border-radius: 10px;
+  background: white;
+  font-size: 12px;
+  font-weight: 700;
+  border: none;
+  margin-top: 64px;
+}
+
+.abouts h1 {
+  font-size: 36pt;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin-left: 200px;
+}
+.abouts p {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.catalog {
+  margin-top: 80px;
+  background-color: #EEF2E3;
+  width: 1920px;
+  height: 614px;
+  flex-shrink: 0;
+}
+.catalog .containrer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 200px;
+}
+.catalog .containrer .elem {
+  margin-top: 110px;
+  border: 1px solid gray;
+  width: 261px;
+  height: 380px;
+  background-color: white;
+  margin-left: 100px;
+}
+.catalog .menu {
+  float: right;
+}
+.catalog .menu ol li {
+  list-style-type: none;
+  float: left;
+  margin-left: 33px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.catalog h1 {
+  padding-top: 30px;
+  margin-left: 200px;
+  font-size: 36pt;
+}
+.catalog .one {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.information {
+  margin-top: 100px;
+  margin-left: 150px;
+}
+.information .elems {
+  display: inline-block;
+  width: 261px;
+  height: 261px;
+  flex-shrink: 0;
+  margin-left: 100px;
+}
+.information h1 {
+  font-size: 36pt;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  margin-left: 200px;
+}
+
+footer {
+  margin-top: 130px;
+  width: 1920px;
+  height: 327px;
+  flex-shrink: 0;
+  background-color: #EEF2E3;
+}
+footer p {
+  color: #8191A6;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */
+    </style>
+  </head>
+  <body>     
+    <header> 
+      <div class="wrapper">
+        <div class="logo">
+          <h1>My-Giro</h1>
+        </div>
+        <nav class="main-menu"> 
+          <ul> 
+            <li> <a href="index.html">Главная</a></li>
+            <li> <a href="abouts.html">О нас</a></li>
+            <li> <a href="catalog.html">Каталог</a></li>
+            <li> <a href="helpful.html">Полезное</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="banner"> 
+      <div class="wrapper"> 
+        <h1>My-Giro</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores dolores nesciunt aperiam earum facere laudantium illo dignissimos quia, ab quibusdam. </p>
+        <input type="button" value="В КАТАЛОГ">
+      </div>
+    </div>
+    <div class="abouts">
+      <h1>О нас</h1>
+      <p>В  нашем интернет-магазине представлен большой выбор гироскутеров, сигвеев и электросамокатов от известных мировых производителей. <br></p>
+      <p>В нашем интернет-магазине представлен большой выбор гироскутеров, сигвеев и электросамокатов от известных мировых производителей. Все товары, представленные на нашем сайте, отобраны лучшими специалистами в этой области. Купить гироскутер, электросамокат или сигвей недорого.</p>
+    </div>
+    <div class="catalog">
+      <h1>Каталог</h1>
+      <nav class="menu"> 
+        <ol> 
+          <li>
+            <div class="orange">Все</div>
+          </li>
+          <li>Гироскутеры</li>
+          <li>Электросамокаты</li>
+          <li>Сигвеи</li>
+        </ol>
+      </nav>
+      <div class="containrer"> 
+        <div class="elem"> <img src="../img/sig.png" alt="">
+          <p>Xiaomi Ninebot mini ProWhite (Белый)</p>
+          <p class="one">31 480 p.</p>
+        </div>
+        <div class="elem"> <img src="../img/sig.png" alt="">
+          <p>Xiaomi Ninebot mini ProWhite (Белый)</p>
+          <p class="one"> 31 480 p.</p>
+        </div>
+        <div class="elem"> <img src="../img/sig.png" alt="">
+          <p>Xiaomi Ninebot mini ProWhite (Белый)</p>
+          <p class="one"> 31 480 p.</p>
+        </div>
+        <div class="elem"> <img src="../img/sig.png" alt="">
+          <p>Xiaomi Ninebot mini ProWhite (Белый)</p>
+          <p class="one"> 31 480 p.   </p>
+        </div>
+      </div>
+    </div>
+    <div class="information"> 
+      <h1>Полезная информация</h1>
+      <div class="elems"> <img src="/img/giro.png" alt=""></div>
+      <div class="elems"> <img src="/img/giro.png" alt=""></div>
+      <div class="elems"> <img src="/img/giro.png" alt=""></div>
+      <div class="elems"> <img src="/img/giro.png" alt=""></div>
+    </div>
+    <footer> 
+      <div class="footer"> 
+        <div class="footer-block">
+          <p>В нашем интернет-магазине представлен большой выбор гироскутеров, сигвеев и электросамокатов от известных мировых производителей. Все товары, представленные на нашем сайте, этобраны лучшими специалистами в этой области.</p>
+          <p>Copyright © 2020 My-Giro</p>
+        </div>
+        <div class="mn-1"> 
+          <h2>О нас </h2>
+          <p>Контакты</p>
+          <p>Преимущества компании</p>
+        </div>
+        <div class="mn-2"> 
+          <h2>О товарах</h2>
+          <p>Полезная информация</p>
+          <p>Наша продукция</p>
+          <p>Каталог</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
